@@ -8,8 +8,8 @@ function AppHeader() {
   const classes = useStyles();
 
   return (
-    <div data-testid="AppHeader">
-      <AppBar position="static" className={classes.appBar}>
+    <div data-testid='AppHeader'>
+      <AppBar position='static' className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <Typography variant='h6'>Weather App</Typography>
         </Toolbar>
